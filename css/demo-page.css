@@ -308,6 +308,12 @@ pre.prettyprint {
   #trabajoElement {
     font-size: 25px;
 }
+
+  .logo {
+    margin-top: 15px;
+    width: 41%;
+    margin-bottom: -29px;
+}
   
 }
 

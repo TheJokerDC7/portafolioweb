@@ -1,43 +1,4 @@
-/*
- * ImageHover.css - Demo Page
- * Author: Ciarán Walsh
 
- * Made available under a MIT License:
- * http://www.opensource.org/licenses/mit-license.php
-
- */
-/* Estilos base, aplicables a dispositivos móviles y de escritorio */
-body {
-    font-family: Arial, sans-serif;
-}
-
-.nav, .banner, .profile, .skills, .mistrabajos, .footer {
-    padding: 20px;
-    text-align: center;
-}
-
-/* Media queries */
-
-/* Pantallas menores a 600px (teléfonos en posición vertical) */
-@media (max-width: 600px) {
-    .banner, .profile, .skills, .mistrabajos, .footer {
-        padding: 10px;
-    }
-    .texto h2, .contenido h2, .presentacion h3, .presentacion2 h5 {
-        font-size: smaller;
-    }
-    .avatar img, .skills div img {
-        width: 50%;
-    }
-    .galeria, .galeria1 {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-}
-
-/* Pantallas entre 601px y 900px (teléfonos en posición horizontal y tabletas pequeñas) */
-@media (min-width: 601px) and (max-width: 900px) {
-    .banner, .profile, .skills, .mistrabajos, .footer {
-        padding: 15px
 
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 

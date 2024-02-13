@@ -272,6 +272,20 @@ pre.prettyprint {
   h1 {
     font-size: 3em;
   }
+#mensajeElement {
+    font-size: 26px;
+}
+
+  #saludoElement {
+    font-size: 22px;
+}
+#presentElement {
+    font-size: 25px;
+}
+  #meElement {
+    font-size: 17px;
+}
+  
 }
 
 /* Pantallas grandes, incluyendo desktops y algunas tabletas en posición horizontal */

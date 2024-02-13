@@ -238,6 +238,9 @@ pre.prettyprint {
   .demo {
     width: 100%;
   }
+  .mensajeElement{
+  font-size:26px;
+  }
 }
 
 /* Teléfonos en posición horizontal (Landscape mode) y tabletas pequeñas */

@@ -285,6 +285,27 @@ pre.prettyprint {
   #meElement {
     font-size: 17px;
 }
+
+  #designerElement {
+    font-size: 26px;
+}
+#subskill1Element {
+    font-size: 18px;
+}
+
+  #sub2skill1Element {
+    font-size: 24px;
+}
+  #texto {
+    font-size: 18px;
+}
+  #sub3skill1Element {
+    font-size: 24px;
+}
+  #redessociales {
+    margin-left: 125px!important;
+}
+  
   
 }
 

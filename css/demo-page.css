@@ -230,12 +230,19 @@ pre.prettyprint {
   bottom: 1px;
   top: auto;
 }
-@media only screen and (max-width: 959px) {
+/* Estilos base y globales aquí */
+
+/* Teléfonos en posición vertical (Portrait mode) */
+@media only screen and (max-width: 360px) {
+  /* Esta media query es para dispositivos muy pequeños, típicamente teléfonos en posición vertical. */
   .demo {
-    width: 32.5%;
+    width: 100%;
   }
 }
+
+/* Teléfonos en posición horizontal (Landscape mode) y tabletas pequeñas */
 @media only screen and (max-width: 659px) {
+  /* Afecta a teléfonos en posición horizontal y tabletas pequeñas. */
   .demo {
     width: 49%;
   }
@@ -245,17 +252,26 @@ pre.prettyprint {
     width: 100%;
   }
 }
-@media only screen and (max-width: 360px) {
+
+/* Tabletas y dispositivos de pantalla media */
+@media only screen and (max-width: 959px) {
+  /* Aplica principalmente a tabletas en orientación tanto vertical como horizontal, y posiblemente a laptops pequeñas. */
   .demo {
-    width: 100%;
+    width: 32.5%;
   }
 }
+
+/* General, para todos los dispositivos mayores a 360px de ancho */
 @media only screen and (min-width: 360px) {
+  /* Aumenta el tamaño de fuente para `h1` en la mayoría de los dispositivos, excluyendo los muy pequeños. */
   h1 {
     font-size: 3em;
   }
 }
+
+/* Pantallas grandes, incluyendo desktops y algunas tabletas en posición horizontal */
 @media screen and (min-width: 1280px) {
+  /* Diseñado para pantallas amplias, como desktops y tabletas grandes en orientación horizontal. */
   #forkongithub {
     position: absolute;
     display: block;
@@ -283,6 +299,7 @@ pre.prettyprint {
     margin: 0 2%;
   }
 }
+/* Adicional, estilos para secciones de publicidad */
 .ad {
   margin-top: 2em;
   text-align: center;
